@@ -1,0 +1,65 @@
+/* Experience Section */
+#experience {
+    background-color: #fff;
+    padding: 50px 0;
+    color: #222;
+    }
+    
+    .experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+    
+    .experience-card {
+    background-color: #f5f7fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .experience-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .experience-card .role {
+    font-size: 18px;
+    color: #ff6600;
+    margin-bottom: 10px;
+    }
+    
+    .experience-card .duration {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+    }
+    
+    .experience-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    }
+    
+    .experience-card ul li {
+    margin-bottom: 8px;
+    }
+    
+    .experience-card .responsibilities {
+    color: #555;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+    .experience-container {
+    gap: 20px;
+    }
+    .experience-card h3 {
+    font-size: 22px;
+    }
+    .experience-card .role {
+    font-size: 16px;
+    }
+    }
+    

@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    /* Body Styling */
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+    }
+    
+    /* Contact Section */
+    #contact {
+    background-color: #f5f7fa;
+    padding: 50px 0;
+    }
+    
+    #contact .container {
+    max-width: 600px;
+    margin: auto;
+    }
+    
+    h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #111;
+    }
+    
+    /* Form styling */
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    .form-group {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    label {
+    font-size: 16px;
+    color: #333;
+    }
+    
+    input,
+    textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    textarea {
+    resize: vertical;
+    }
+    
+    button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    }
+    
+    button:hover {
+    background-color: #e65c00;
+    }
+    
+    /* Form feedback */
+    #form-feedback {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+    .success {
+    color: green;
+    }
+    
+    .error {
+    color: red;
+    }
+    
+    
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .nav-links {
+        flex-direction: column;
+        background-color: #111;
+        width: 100%;
+        display: none;
+        margin-top: 10px;
+        }
+        
+        
+        
+        .nav-links.active {
+        display: flex;
+        }
+        
+        .menu-toggle {
+        display: block;
+        }
+        }
+        /* Footer Section */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    }
+    
+    .footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    }
