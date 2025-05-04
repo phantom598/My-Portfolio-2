@@ -44,11 +44,11 @@ JavaScript
 Setup Instructions
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/phantom598
 
 Open the folder in your code editor
 
-Open index.html in your browser
+Open the various html files in your browser
 
 
 
